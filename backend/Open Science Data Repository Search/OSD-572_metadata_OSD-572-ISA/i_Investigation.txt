@@ -1,0 +1,112 @@
+ONTOLOGY SOURCE REFERENCE
+Term Source Name	EFO	NCIT	OBI	CRO	MESH	RBO	OSD
+Term Source File	http://data.bioontology.org/ontologies/EFO		http://data.bioontology.org/ontologies/OBI				https://osdr.nasa.gov/
+Term Source Version	132		29				1.0
+Term Source Description	Experimental Factor Ontology		Ontology for Biomedical Investigations				User defined terms
+INVESTIGATION
+Investigation Identifier	
+Investigation Title	
+Investigation Description	
+Investigation Submission Date	
+Investigation Public Release Date	
+INVESTIGATION PUBLICATIONS
+Investigation PubMed ID
+Investigation Publication DOI
+Investigation Publication Author List
+Investigation Publication Title
+Investigation Publication Status
+Investigation Publication Status Term Accession Number
+Investigation Publication Status Term Source REF
+INVESTIGATION CONTACTS
+Investigation Person Last Name
+Investigation Person First Name
+Investigation Person Mid Initials
+Investigation Person Email
+Investigation Person Phone
+Investigation Person Fax
+Investigation Person Address
+Investigation Person Affiliation
+Investigation Person Roles
+Investigation Person Roles Term Accession Number
+Investigation Person Roles Term Source REF
+STUDY
+Study Identifier	OSD-572
+Study Title	SpaceX Inspiration4 Oral, Nasal, and Skin Metagenomic and Metatranscriptomic Microbial Swabs
+Study Description	The SpaceX Inspiration4 mission was a 3-day mission with four private astronauts to low Earth orbit that occurred in September 2021. The crew collected biospecimen samples before, during, and after flight. One of these biospecimen collections included oral, nasal, and skin microbial swabs collected from ten locations (oral, nasal cavity, post-auricular, axillary vault, volar forearm, occiput, umbilicus, gluteal crease, glabella, and toe web space). Skin swabs were first dipped in nuclease-free water before swabbing each region for 30 seconds. Oral and nasal swabs did not include this swab-wetting step. Nuclease-free water samples were sequenced as controls. Swabs were collected at three pre-flight timespoints (L-92, L-44, L-3), two in-flight timepoints (flight day 2 (FD2), and flight day 3 (FD3)), and three post-flight timepoints (R+1, R+45, R+82). Swabs were stored in 400uL of Zymo Research DNA/RNA Shield at 4C until nucleic acid extraction. DNA and RNA were extracted from the same swab to generate metagenomic and metatranscriptomic profiles.
+Study Submission Date	05-Dec-2022
+Study Public Release Date	14-May-2024
+Study File Name	s_OSD-572.txt
+Comment[Acknowledgments]	Thanks to the WorldQuant Foundation, NASA , the National Institutes of Health (R01MH117406, P01CA214274 R01CA249054), the LLS (MCL7001-18, LLS 9238-16), and the GI Research Foundation (GIRF).
+Comment[DOI]	10.26030/8v5d-xn21
+Comment[Data Source Accession]	
+Comment[Data Source Link]	
+Comment[Experiment Platform]	
+Comment[Flight Program]	
+Comment[Funding]	Funding provided by NASA, NIH, and philanthropic donations. NNX14AH50G, NNX17AB26G, 80NSSC22K0254, NNH18ZTT001N-FG2, NNX16AO69A
+Comment[Identifiers]	
+Comment[Managing NASA Center]	
+Comment[Mission End]	09/18/2021
+Comment[Mission Link]	https://osdr.nasa.gov/bio/repo/data/missions/SpaceX Inspiration4
+Comment[Mission Name]	SpaceX Inspiration4
+Comment[Mission Start]	09/16/2021
+Comment[Project Identifier]	Inspiration4 Crew
+Comment[Project Link]	
+Comment[Project Title]	
+Comment[Project Type]	Spaceflight Study
+Comment[Space Program]	NASA
+Comment[Study Grant Number]	
+STUDY DESIGN DESCRIPTORS
+Study Design Type	low Earth orbit
+Study Design Type Term Accession Number	http://purl.obolibrary.org/obo/RBO_00000019
+Study Design Type Term Source REF	RBO
+STUDY PUBLICATIONS
+Study PubMed ID			
+Study Publication DOI	10.1038/s41564-024-01635-8	10.1038/s41586-024-07639-y	10.1038/s41467-024-48806-z
+Study Publication Author List	Braden T. Tierney, JangKeun Kim, Eliah G. Overbey, Krista A. Ryon, Jonathan Foox, Maria Sierra, Chandrima Bhattacharya, Namita Damle, Deena Najjar, Jiwoon Park, Sebastian Garcia Medina, Nadia Houerbi, Cem Meydan, Jeremy Wain Hershberg, Jake Qiu, Ashley Kleinman, Gabriel A. Al-Ghalith, Matthew MacKay, Evan E Afshin, Raja Dhir, Joseph Borg, Christine Gatt, Nicholas Brereton, Ben Readhead, Semir Beyaz, Kasthuri J Venkateswaran, Kelly Blease, Juan Moreno, Andrew Boddicker, Junhua Zhao, Bryan Lajoie, Ryan T. Scott, Andrew Altomare, Semyon Kruglyak, Shawn Levy, George Church, Christopher E. Mason	Eliah G. Overbey, JangKeun Kim, Braden T. Tierney, Jiwoon Park, Nadia Houerbi, Alexander G. Lucaci, Sebastian Garcia Medina, Namita Damle, Deena Najjar, Kirill Grigorev, Evan E. Afshin, Krista A. Ryon, Karolina Sienkiewicz, Laura Patras, Remi Klotz, Veronica Ortiz, Matthew MacKay, Annalise Schweickart, Christopher R. Chin, Maria A. Sierra, Matias F. Valenzuela, Ezequiel Dantas, Theodore M. Nelson, Egle Cekanaviciute, Gabriel Deards, Jonathan Foox, S. Anand Narayanan, Caleb M. Schmidt, Michael A. Schmidt, Julian C. Schmidt, Sean Mullane, Seth Stravers Tigchelaar, Steven Levitte, Craig Westover, Chandrima Bhattacharya, Serena Lucotti, Jeremy Wain Hirschberg, Jacqueline Proszynski, Marissa Burke, Ashley Kleinman, Daniel J. Butler, Conor Loy, Omary Mzava, Joan Lenz, Doru Paul, Christopher Mozsary, Lauren M. Sanders, Lynn E. Taylor, Chintan O. Patel, Sharib A. Khan, Mir Suhail, Syed G. Byhaqui, Burhan Aslam, Aaron S Gajadhar, Lucy Williamson, Purvi Tandel, Qiu Yang, Jessica Chu, Ryan W. Benz, Asim Siddiqui, Daniel Hornburg, Kelly Blease, Juan Moreno, Andrew Boddicker, Junhua Zhao, Bryan Lajoie, Ryan T. Scott, Rachel R. Gilbert, San-huei Lai Polo, Andrew Altomare, Semyon Kruglyak, Shawn Levy, Ishara Ariyapala, Joanne Beer, Bingqing Zhang, Briana M. Hudson, Aric Rininger, Sarah E. Church, Afshin Beheshti, George M. Church, Scott M. Smith, Brian E. Crucian, Sara R. Zwart, Irina Matei, David C. Lyden, Francine Garrett-Bakelman, Jan Krumsiek, Qiuying Chen, Dawson Miller, Joe Shuga, Stephen Williams, Corey Nemec, Guy Trudel, Martin Pelchat, Odette Laneuville, Iwijn De Vlaminck, Steven Gross, Kelly L. Bolton, Susan M. Bailey, Richard Granstein, David Furman, Ari M. Melnick, Sylvain V. Costes, Bader Shirah, Min Yu, Anil S. Menon, Jaime Mateus, Cem Meydan, Christopher E. Mason	Eliah G. Overbey, Krista Ryon, JangKeun Kim, Braden Tierney, Remi Klotz, Veronica Ortiz, Sean Mullane, Julian C. Schmidt, Matthew MacKay, Namita Damle, Deena Najjar, Irina Matei, Laura Patras, J. Sebastian Garcia Medina, Ashley Kleinman, Jeremy Wain Hirschberg, Jacqueline Proszynski, S. Anand Narayanan, Caleb M. Schmidt, Evan E. Afshin, Lucinda Innes, Mateo Mejia Saldarriaga, Michael A. Schmidt, Richard D. Granstein, Bader Shirah, Min Yu, David Lyden, Jaime Mateus, Christopher E. Mason
+Study Publication Title	Longitudinal multi-omics analysis of host microbiome architecture and immune responses during short-term spaceflight	The Space Omics and Medical Atlas (SOMA) and international astronaut biobank	Collection of Biospecimens from the Inspiration4 Mission Establishes the Standards for the Space Omics and Medical Atlas (SOMA)
+Study Publication Status	published	published	published
+Study Publication Status Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0001796	http://www.ebi.ac.uk/efo/EFO_0001796	http://www.ebi.ac.uk/efo/EFO_0001796
+Study Publication Status Term Source REF	EFO	EFO	EFO
+Comment[Study Publication Link]			
+STUDY FACTORS
+Study Factor Name	Spaceflight	Time	Sample Location
+Study Factor Type	Space Flight	time	Sample Location
+Study Factor Type Term Accession Number	http://purl.bioontology.org/ontology/MESH/D013026	http://www.ebi.ac.uk/efo/EFO_0000721	https://osdr.nasa.gov/
+Study Factor Type Term Source REF	MESH	EFO	OSD
+STUDY ASSAYS
+Study Assay File Name	a_OSD-572_metagenomic-sequencing_whole-genome-shotgun-sequencing_illumina.txt	a_OSD-572_metatranscriptome-sequencing-assay_rna-sequencing-(rna-seq)_illumina.txt
+Study Assay Measurement Type	Metagenomic sequencing	metatranscriptome sequencing assay
+Study Assay Measurement Type Term Accession Number	http://edamontology.org/topic_3837	obo:OBI_0002760
+Study Assay Measurement Type Term Source REF		OBI
+Study Assay Technology Type	Whole-Genome Shotgun Sequencing	RNA Sequencing (RNA-Seq)
+Study Assay Technology Type Term Accession Number	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C19653	obo:OBI_0001271
+Study Assay Technology Type Term Source REF	NCIT	OBI
+Study Assay Technology Platform	Illumina	Illumina
+STUDY PROTOCOLS
+Study Protocol Name	Nucleic Acid Extraction	Library Construction - metagenomics	Nucleic Acid Sequencing - metagenomics	human read contaminant filtering	GeneLab raw data processing protocol - metagenomics	GeneLab metagenomic data processing protocol	Library Construction - metatranscriptomics	Nucleic Acid Sequencing - metatranscriptomics	GeneLab raw data processing protocol - metatranscriptomics	Treatment protocol	sample collection
+Study Protocol Type	Nucleic Acid Extraction	Library Construction	Nucleic Acid Sequencing	data transformation	data transformation	data transformation	Library Construction	Nucleic Acid Sequencing	data transformation	treatment protocol	sample collection
+Study Protocol Type Term Accession Number				http://purl.obolibrary.org/obo/OBI_0200000	http://purl.obolibrary.org/obo/OBI_0200000	http://purl.obolibrary.org/obo/OBI_0200000			http://purl.obolibrary.org/obo/OBI_0200000	https://osdr.nasa.gov/	
+Study Protocol Type Term Source REF		OBI	OBI	OBI	OBI	OBI	OBI	OBI	OBI	OBI	OBI
+Study Protocol Description	DNA, RNA and proteins were isolated from each sample using the QIAGEN AllPrep DNA/RNA/Protein Kit (QIAGEN, cat  47054) according to the manufacturer’s protocol, yet omitting steps one and two. In order to lyse biological material from each sample, 350uL of each sample was transferred to a QIAGEN PowerBead Tubes with 0.1mm glass beads and secured to a Vortex-Genie 2 using an adapter (cat 1300-V1-24) before being homogenized for 10 minutes. 350uL of the subsequent lysate was then transferred to a spin-column before proceeding with the protocol. Concentration of the isolated DNA, RNA and protein for each sample were measured by fluorometric quantitation using the Qubit 4 Fluorometer (Thermo Fisher Scientific, cat  Q33238) and a corresponding assay kit.  The Qubit 1Xds DNA HS Assay Kit for DNA concentration (cat  Q33231), the RNA HS Assay Kit (cat  Q32855) for RNA concentration.	Illumina DNA Library prep kit was used for preparing all extracted DNA samples for Illumina Whole genome sequencing per manufacturer’s instructions. Adapters used were IDT® for Illumina® DNA/RNA UD Indexes, Tagmentation (96 Indexes, 96 Samples).	All libraries were pooled and sequenced on a S4 flow cell of the Illumina NovaSeq 6000 Sequencing System with 2 × 150 bp paired-end reads.	Utilizing kraken2 v2.1.1, a human genome reference database was constructed from NCBI's RefSeq (GCF_000001405.39) GRCh38.p13, with --no-masking, and defaults of kmer-length 35 and minimizer-length of 31. FASTQ files were screened against this database, and all successfully classified reads were removed.	Fastq format was checked with fastq_utils v0.25.1. Quality assessment of reads was performed with FastQC v0.11.9 and reports were combined with MultiQC v1.12.	Quality assessment of reads was performed with FastQC v0.11.9 and reports were combined with MultiQC v1.11. Quality-trimming and filtering was performed with bbmap v38.86. Read-based processing was performed with humann v3.6. Individual samples were assembled with megahit v1.2.9. Genes were called with prodigal v2.6.3. Taxonomic classification of genes and contigs was performed with CAT v5.2.2. Functional annotation was done with KOFamScan v1.3.0. Reads were mapped to assemblies with bowtie2 v2.3.5.1, and coverage information was extracted for reads and contigs with samtools v1.9 and bbmap v38.86. Binning of contigs was performed with metabat2 v2.15. Bins were summarized with bit v1.8.53 and estimates of quality were generated with checkm v1.1.3. High-quality bins (greater than 90% est. completeness and less than 10% est. redundancy) were taxonomically classified with gtdb-tk v1.5.0.	For library preparation, total RNA samples were sent to Hudson Alpha. Samples were treated with DNAse 1 (Zymo Research, Catalog   E1010). Post-DNAse digested samples were then put into the NEBNext rRNA depletion v2 (Human/Mouse/Rat), Ultra II Directional RNA (10 ng), and Unique Dual Index Primer Pairs were used following the vendor protocols from New England Biolabs. Completed libraries were quantified by Qubit or equivalent and run on a Bioanalyzer or equivalent for size determination. Libraries were pooled and quantified by Qubit fluorometer (ThermoFisher Scientific), TapeStation 2200 (Agilent), and qRT-PCR using the Kapa Biosystems Illumina library quantification kit.	All libraries were pooled and sequenced on a S4 flow cell of the Illumina NovaSeq 6000 Sequencing System with 2 × 150 bp paired-end reads.	Raw fastq file quality was evaluated with FastQC (version 0.12.1), and MultiQC (version 1.17) was used to generate the raw MultiQC report.	All subjects were consented at an informed consent briefing (ICB) at SpaceX (Hawthorne, CA), and samples were collected and processed under the approval of the Institutional Review Board (IRB) at Weill Cornell Medicine, under Protocol 21-05023569. All crew members have consented for data and sample sharing. We sequenced analyzed samples from human skin, oral, and nasal, environmental swabs before, during, and after a 3-day mission to space.	Body swabs were collected from ten different sites, comprising three microbial ecosystems (oral, nasal, skin) around the body at eight different timepoints surrounding launch. These are referred to as L-92, L-44, L-3, FD1, FD2, R+1, R+45, R+82, where “L-” refers to pre-launch, “FD” corresponds to flight day (i.e., mid-flight), “R” refers to recovery (i.e., post-flight). Open air control, swab water control, laboratory control are also collected. The crew were each provided sterile Isohelix Buccal Mini Swabs (Isohelix, cat MS-03) and 1.0mL dual-barcoded screw-top tubes (Thermo Scientific, cat 3741-WP1D-BR/1.0mL) prefilled with 400uL of DNA/RNA Shield storage preservative (Zymo Research, cat  R1100). Isohelix swabs were dipped in nuclease-free water (on-Earth) or Hfactor hydrogen infused water (in-flight). Eight skin swab sites: post-auricular, axillary vault, volar forearm, occiput, umbilicus, gluteal crease, glabella, and the toe-web space. Following sample collection, swabs were immediately transferred to the barcoded screw-top tubes and kept at room temperature for less than 4 days before being stored at 4C until processing.
+Study Protocol URI											
+Study Protocol Version											
+Study Protocol Parameters Name		Library Selection;Library Layout	Sequencing Instrument;Read Length	Human Reads Removed;Read Depth	MultiQC File Names	README;Raw Sequence Data;Filtered Sequence Data;FastQC Outputs;Assembly-based Processing;Assembly-based Processing/assemblies;Assembly-based Processing/annotations-and-taxonomy;Assembly-based Processing/read-mapping;Assembly-based Processing/bins;Assembly-based Processing/MAGs;Assembly-based Processing/combined-outputs;Read-based Processing;Processing Info;Assembly-based Processing/predicted-genes	Library Selection;Library Layout;Stranded;Library QA Instrument	Sequencing Instrument;Read Length;Base Caller	Read Depth;MultiQC File Names	Housing Temperature	Sample Preservation Method;Sample Storage Temperature
+Study Protocol Parameters Name Term Accession Number		;	;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl	https://osdr.nasa.gov/;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl	https://osdr.nasa.gov/	https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/	;;;https://osdr.nasa.gov/	;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl;https://osdr.nasa.gov/	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl;https://osdr.nasa.gov/	https://osdr.nasa.gov/	https://genelab-data.ndc.nasa.gov/;https://genelab-data.ndc.nasa.gov/
+Study Protocol Parameters Name Term Source REF		;	;NCIT	OSD;NCIT	OSD	OSD;OSD;OSD;OSD;OSD;OSD;OSD;OSD;OSD;OSD;OSD;OSD;OSD;OSD	;;;OSD	;NCIT;OSD	NCIT;OSD	OSD	;
+Study Protocol Components Name											
+Study Protocol Components Type											
+Study Protocol Components Type Term Accession Number											
+Study Protocol Components Type Term Source REF											
+STUDY CONTACTS
+Study Person Last Name	Tierney	Mason	Overbey
+Study Person First Name	Braden	Christopher	Eliah
+Study Person Mid Initials	T	E	G
+Study Person Email	btt4001@med.cornell.edu	chm2042@med.cornell.edu	elo4004@med.cornell.edu
+Study Person Phone			
+Study Person Fax			
+Study Person Address			
+Study Person Affiliation	Weill Cornell Medicine	Weill Cornell Medicine, BioAstra, WorldQuant Initiative for Quantitative Prediction	Weill Cornell Medicine, BioAstra
+Study Person Roles	conceptualization role	conceptualization role	conceptualization role
+Study Person Roles Term Accession Number	http://purl.org/credit/ontology	http://purl.org/credit/ontology	http://purl.org/credit/ontology
+Study Person Roles Term Source REF	CRO	CRO	CRO
+Comment[orcidIdentifier]	0000-0002-7533-8802	0000-0002-1850-1642	0000-0002-2866-8294

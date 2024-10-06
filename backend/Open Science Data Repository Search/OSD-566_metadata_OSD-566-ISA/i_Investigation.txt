@@ -1,0 +1,112 @@
+ONTOLOGY SOURCE REFERENCE
+Term Source Name	EFO	NCIT	OBI	RBO	MESH	CRO
+Term Source File	http://data.bioontology.org/ontologies/EFO		http://data.bioontology.org/ontologies/OBI			
+Term Source Version	132		29			
+Term Source Description	Experimental Factor Ontology		Ontology for Biomedical Investigations			
+INVESTIGATION
+Investigation Identifier	
+Investigation Title	
+Investigation Description	
+Investigation Submission Date	
+Investigation Public Release Date	
+INVESTIGATION PUBLICATIONS
+Investigation PubMed ID
+Investigation Publication DOI
+Investigation Publication Author List
+Investigation Publication Title
+Investigation Publication Status
+Investigation Publication Status Term Accession Number
+Investigation Publication Status Term Source REF
+INVESTIGATION CONTACTS
+Investigation Person Last Name
+Investigation Person First Name
+Investigation Person Mid Initials
+Investigation Person Email
+Investigation Person Phone
+Investigation Person Fax
+Investigation Person Address
+Investigation Person Affiliation
+Investigation Person Roles
+Investigation Person Roles Term Accession Number
+Investigation Person Roles Term Source REF
+STUDY
+Study Identifier	OSD-566
+Study Title	Sexual Dimorphism during Integrative Endocrine and Immune Responses to Ionizing Radiation in Mice -- Adrenal data
+Study Description	Exposure to cosmic ionizing radiation is an innate risk of the spaceflight environment that can cause DNA damage and altered cellular function. In astronauts, longitudinal monitoring of physiological systems and interactions between these systems are important to consider for mitigation strategies. In addition, assessments of sex-specific biological responses in the unique environment of spaceflight are vital to support future exploration missions that include both females and males. Here we assessed sex-specific, multi-system immune and endocrine responses to simulated cosmic radiation. For this, 24-week-old, male and female C57Bl/6J mice were exposed to simplified five-ion, space-relevant galactic cosmic ray (GCRsim) radiation at 15 and 50 cGy, to simulate predicted radiation exposures that would be experienced during lunar and Martian missions, respectively. Blood and adrenal tissues were collected at 3- and 14-days post-exposure for analysis of immune and endocrine biosignatures and pathways. Sexually dimorphic adrenal gland weights and morphology, differential total RNA expression, and unique immune phenotypes were altered by GCRsim. In brief, this study offers new insights into sexually dimorphic immune and endocrine kinetics following simulated cosmic radiation exposure and highlights the necessity for personalized translational approaches for astronauts during exploration missions. This study includes data from adrenal samples only.
+Study Submission Date	29-Nov-2022
+Study Public Release Date	17-May-2024
+Study File Name	s_OSD-566.txt
+Comment[Acknowledgments]	
+Comment[DOI]	10.26030/s8vj-6k50
+Comment[Data Source Accession]	
+Comment[Data Source Link]	
+Comment[Experiment Platform]	
+Comment[Flight Program]	
+Comment[Funding]	This work was supported by the Embry-Riddle Aeronautical University startup fund (AMP), the NASA Human Research Program (HRP) Human Factors Behavioral Performance Element Grant 18-18FLAG-2-0028 (AER), NNX15AB48G (LKC), and 80JSC019N0001-FLAGSHIP (CGTT).
+Comment[Identifiers]	
+Comment[Managing NASA Center]	
+Comment[Mission End]	
+Comment[Mission Link]	
+Comment[Mission Name]	
+Comment[Mission Start]	
+Comment[Project Identifier]	Multiple_Radiation_Types, Heavy_Ion_HZE_Irradiation, Simplified_Galactic_Cosmic_Ray_Simulation_Irradiation, High_Dose_Irradiation
+Comment[Project Link]	
+Comment[Project Title]	
+Comment[Project Type]	Ground Study
+Comment[Space Program]	
+Comment[Study Grant Number]	
+STUDY DESIGN DESCRIPTORS
+Study Design Type	ground analog study
+Study Design Type Term Accession Number	http://purl.obolibrary.org/obo/RBO_00005026
+Study Design Type Term Source REF	RBO
+STUDY PUBLICATIONS
+Study PubMed ID	38409284
+Study Publication DOI	10.1038/s41598-023-33629-7
+Study Publication Author List	Burke Marissa, Wong Kelly, Talyansky Yuli, Mhatre Siddhita D., Mitchell Carol, Juran Cassandra M., Olson Makaila, Iyer Janani, Puukila Stephanie, Tahimic Candice G. T., Christenson Lane K., Lowe Moniece, Rubinstein Linda, Shirazi-Fard Yasaman, Sowa Marianne B., Alwood Joshua S., Ronca April E., Paul Amber M.
+Study Publication Title	Sexual dimorphism during integrative endocrine and immune responses to ionizing radiation in mice
+Study Publication Status	published
+Study Publication Status Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0001796
+Study Publication Status Term Source REF	EFO
+Comment[Study Publication Link]	https://www.nature.com/articles/s41598-023-33629-7.pdf
+STUDY FACTORS
+Study Factor Name	Ionizing Radiation	Sex
+Study Factor Type	ionizing radiation	Sex
+Study Factor Type Term Accession Number	http://purl.obolibrary.org/obo/RBO_00000116	http://purl.bioontology.org/ontology/MESH/D012723
+Study Factor Type Term Source REF	RBO	MESH
+STUDY ASSAYS
+Study Assay File Name	a_OSD-566_transcription-profiling_rna-sequencing-(rna-seq)_illumina.txt
+Study Assay Measurement Type	transcription profiling
+Study Assay Measurement Type Term Accession Number	obo:OBI_0000424
+Study Assay Measurement Type Term Source REF	OBI
+Study Assay Technology Type	RNA Sequencing (RNA-Seq)
+Study Assay Technology Type Term Accession Number	obo:OBI_0001271
+Study Assay Technology Type Term Source REF	OBI
+Study Assay Technology Platform	Illumina
+STUDY PROTOCOLS
+Study Protocol Name	irradiation protocol	sample collection	Nucleic Acid Extraction	Library Construction	Nucleic Acid Sequencing	GeneLab raw data processing protocol	GeneLab RNAseq data processing protocol
+Study Protocol Type	see protocol description	sample collection	Nucleic Acid Extraction	Library Construction	Nucleic Acid Sequencing	data transformation	data transformation
+Study Protocol Type Term Accession Number	https://osdr.nasa.gov/	https://osdr.nasa.gov/				http://purl.obolibrary.org/obo/OBI_0200000	http://purl.obolibrary.org/obo/OBI_0200000
+Study Protocol Type Term Source REF		RBO	RBO	RBO	RBO	OBI	OBI
+Study Protocol Description	All animal experimental procedures were approved by the Institutional Animal Care and Use Committee (IACUC) at Brookhaven National Laboratory (BNL) protocol number 516. All experiments were performed by trained personnel in AAALAC accredited animal facilities at BNL, while conforming to the U.S. National Institutes of Health Guide for the Care and Use of Laboratory Animals. This study is reported in accordance with ARRIVE guidelines. 24-week-old C57Bl/6J male and female mice were purchased from Jackson Laboratory (CA, USA) and shipped to Brookhaven National Laboratory (BNL) 14-days prior to irradiation (IR-14). At arrival to BNL, mice were quarantined and acclimated to a 12h light : 12h dark cycle at standard temperature (23±2°C) and humidity (approximately 50%). Food and water were given ad libitum, and bedding was changed weekly. At IR-4, mice were socially isolated, and, at IR+0, mice irradiated with the 5-ion galactic cosmic ray radiation (GCRsim) at 0, 15, and 50 cGy doses. On day IR-1, mice were transferred to the NASA Space Radiation Laboratory (NSRL) on BNL’s campus by animal care staff. On day IR+0, mice received whole-body irradiation using the simplified 5-ion GCRsim irradiation scheme (protons at 250 and 1000 MeV, 28Si at 600 MeV/n, 4He at 250 MeV/n, 16O at 350 MeV/n, and 56Fe at 600 MeV/n) with 15 and 50 cGy, while 0 cGy sham controls were also performed in similar housing condition, in the absence of irradiation. GCRsim ions, energies, and doses were determined by a NASA consensus formula as previously described. Beam time exposures ranged from ~15 minutes (15 cGy) to 35-45 minutes (50 cGy) per n equals 12 batched cohorts. NSRL GCR and SPE simulations are designed to approximate the chronic mixed field exposures in space by means of sequential acute exposures to a variety of ion/energy combinations.  The exposure protocols are on the NSRL website: https://www.bnl.gov/nsrl/userguide/simgcrsim.php (SimGCRSim).  The dose can be administered either in a single series of exposures lasting approximately an hour or in daily fractions over several weeks.  The GCR simulations are described in detail here: Simonsen LC, Slaba TC, Guida P, Rusek A (2020) NASA’s first ground-based Galactic Cosmic Ray Simulator: Enabling a new era in space radiobiology research. PLoS Biol 18(5): e3000669. https://doi.org/10.1371/journal.pbio.3000669. There are only 0cGy and 50 cGy samples in this dataset.	At IR+14 mice were euthanized by CO2 overdose. Mice were weighed at euthanasia. Adrenals were flash frozen in liquid nitrogen with subsequent storage at -80ºC. Blood was collected through the abdominal aorta (11:00–16:00 h).	Total RNA was extracted with Trizol (Thermo Fisher) and purified using Quick-RNA Miniprep Kit (Zymo Research).	RNA-sequencing libraries were performed using Illumina’s total RNA kit per manufacturer’s instructions. RNA integrity was determined using an Agilent TapeStation with eRIN values  greater than  7. 500 ng of total RNA was used as input. rRNA was depleted, cDNA (first and second strands) were synthesized, and adaptor index ligation and strand selection was performed (Illumina Stranded total RNA Prep with Ribo-Zero Plus). For multiplexing, barcodes with unique indices out of 96, were used per sample (IDT for Illumina). Libraries were amplified by PCR on a Mastercycler Pro (Eppendorf) and purified with RNAClean XP Agencourt beads (Beckman Coulter).	Libraries were sequenced on a NextSeq1000 (Illumina) to generate 30 M, 75-bp paired end reads per sample.	Fastq format was checked with fastq_utils v0.25.1. Quality assessment of reads was performed with FastQC v0.11.9 and reports were combined with MultiQC v1.12. rRNA percentages of reads were estimated with the 'hts_SeqScreener' program of htstream v1.3.3 screened against a fasta file of Mus-musculus rRNA sequences retrieved from NCBI on 01-Sep-2021.	Data were processed as described in GL-DPPD-7101-F (https://github.com/nasa/GeneLab_Data_Processing/blob/master/RNAseq/Pipeline_GL-DPPD-7101_Versions/GL-DPPD-7101-F.md), using NF_RCP-F version 1.0.4 (https://github.com/nasa/GeneLab_Data_Processing/tree/NF_RCP-F_1.0.4/RNAseq/Workflow_Documentation/NF_RCP-F). In short, raw fastq files were filtered using Trim Galore! (version 0.6.7) powered by Cutadapt (version 3.7). Trimmed fastq file quality was evaluated with FastQC (version 0.11.9), and MultiQC (version 1.12) was used to generate MultiQC reports. Mus musculus STAR and RSEM references were built using STAR (version 2.7.10a) and RSEM (version 1.3.1), respectively, Ensembl release 107, genome version GRCm39 (Mus_musculus.GRCm39.dna.primary_assembly.fa) and the following gtf annotation file: Mus_musculus.GRCm39.107.gtf. Trimmed reads were aligned to the Mus musculus STAR reference with STAR (version 2.7.10a) and alignment log files were compiled with MultiQC (version 1.12). Aligned reads were assessed for strandedness using RSeQC infer_experiment.py (version 4.0.0), gene body coverage using RSeQC geneBody_coverage.py (version 4.0.0), inner distance was assessed using RSeQC inner_distance.py (version 4.0.0), and distribution of RNA features using RSeQC read_distribution.py (version 4.0.0). Aligned reads from all samples were quantified using RSEM (version 1.3.1), with strandedness set to reverse and RSEM count log files were compiled with MultiQC (version 1.12). The runsheet was generated with dp_tools (version 1.3.4) and the runsheet and quantification data were imported to R (version 4.1.3) with tximport (version 1.27.1) and normalized with DESeq2 (version 1.34.0) median of ratios method. Normalized gene counts were subject to differential expression analysis. Differential expression analysis was performed in R (version 4.1.3) using DESeq2 (version 1.34.0); all groups were compared pairwise using the Wald test and the likelihood ratio test was used to generate the F statistic p-value. Gene annotations were assigned using the custom annotation tables generated in-house as detailed in GL-DPPD-7110 (https://github.com/nasa/GeneLab_Data_Processing/blob/GL_RefAnnotTable_1.0.0/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110/GL-DPPD-7110.md), with STRINGdb (version 2.8.4), PANTHER.db (version 1.0.11), and org.Mm.eg.db (version 3.15.0).
+Study Protocol URI							
+Study Protocol Version							
+Study Protocol Parameters Name	light cycle;Housing Temperature;particle charge;ionizing radiation energy;linear energy transfer;absorbed radiation dose rate;exposure duration;ionizing radiation categorized by source;ionizing radiation device or source;absorbed radiation dose	Sample Storage Temperature;Sample Preservation Method;Euthanasia Method	QA Instrument;QA Score	Library Selection;Library Layout;Stranded	Sequencing Instrument;Read Length	Read Depth;rRNA Contamination;MultiQC File Names	trimmed sequence data;Trimmed Sequence Data/Multiqc Reports;Trimmed Sequence Data/Trimming Reports;aligned sequence data;Aligned Sequence Data/Alignment Logs;Aligned Sequence Data/MultiQC Reports;RSeQC/MultiQC Reports;Raw Counts Data;Raw Counts Data/Multiqc Reports;Raw Counts Tables;Normalized Counts Data;differential expression analysis data
+Study Protocol Parameters Name Term Accession Number	http://purl.obolibrary.org/obo/NCIT_C90419;https://osdr.nasa.gov/;http://purl.obolibrary.org/obo/RBO_00005040;http://purl.obolibrary.org/obo/RBO_00005012;http://purl.obolibrary.org/obo/RBO_010013;http://purl.obolibrary.org/obo/RBO_00005011;http://purl.obolibrary.org/obo/NCIT_C83280;http://purl.obolibrary.org/obo/RBO_00000001;https://osdr.nasa.gov/;http://purl.obolibrary.org/obo/RBO_00005010	https://osdr.nasa.gov/;https://osdr.nasa.gov/;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl	https://osdr.nasa.gov/;https://osdr.nasa.gov/	;;	;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl;https://osdr.nasa.gov/;https://osdr.nasa.gov/	http://purl.obolibrary.org/obo/OBI_0002569;https://osdr.nasa.gov/;https://osdr.nasa.gov/;http://purl.obolibrary.org/obo/OBI_0002580;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;http://purl.obolibrary.org/obo/OBI_0002584
+Study Protocol Parameters Name Term Source REF	NCIT;;RBO;RBO;RBO;RBO;NCIT;RBO;;RBO	;;NCIT	;	;;	;NCIT	NCIT;;	OBI;;;OBI;;;;;;;;OBI
+Study Protocol Components Name							
+Study Protocol Components Type							
+Study Protocol Components Type Term Accession Number							
+Study Protocol Components Type Term Source REF							
+STUDY CONTACTS
+Study Person Last Name	Paul
+Study Person First Name	Amber
+Study Person Mid Initials	
+Study Person Email	paula6@erau.edu
+Study Person Phone	
+Study Person Fax	
+Study Person Address	Embry-Riddle Aeronautical University
+Study Person Affiliation	Embry-Riddle Aeronautical University
+Study Person Roles	conceptualization role
+Study Person Roles Term Accession Number	http://purl.org/credit/ontology
+Study Person Roles Term Source REF	CRO
+Comment[orcidIdentifier]	0000-0002-1657-3618

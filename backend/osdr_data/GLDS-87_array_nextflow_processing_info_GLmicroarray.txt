@@ -1,0 +1,42 @@
+PARSE_ANNOTATION_TABLE	-
+DUMP_META	
+  # Write the meta file
+  reformat_meta.sh '[Sample Name:Mmus_C57-6CR_RTN_GC_Rep1, Study Assay Measurement:transcription profiling, Study Assay Technology Type:DNA microarray, Study Assay Technology Platform:Affymetrix, organism:Mus musculus, biomart_attribute:AFFY Mouse430 2, Source Name:AEM 16, Label:biotin, Array Data File Name:GLDS-87_microarray_14R_(Mouse430_2).CEL.gz, Array Data File Path:https://genelab-data.ndc.nasa.gov/geode-py/ws/studies/OSD-87/download?source=datamanager&file=GLDS-87_microarray_14R_(Mouse430_2).CEL.gz, Comment[Array Data File Name]:GLDS-87_microarray_14R_(Mouse430_2).CEL.gz, Factor Value[Spaceflight]:Ground Control, Original Sample Name:Mmus_C57-6CR_RTN_GC_Rep1]' > meta.sh
+  
+PROCESS_AFFYMETRIX (1)	
+        export HOME=$PWD;
+
+        quarto render $PWD/Affymetrix.qmd             -P 'runsheet:OSD-87_microarray_v0_runsheet.csv'             -P 'annotation_file_path:36597114'             -P 'organism:Mus musculus'             
+
+        # Rename report
+        mv Affymetrix.html NF_MAAffymetrix_v1.0.5_GLmicroarray.html
+
+        cat >> versions.yml <<END_OF_VERSIONS
+        - name: quarto
+          version: $(quarto --version)
+          homepage: https://quarto.org/
+          workflow task: PROCESS_AFFYMETRIX
+        END_OF_VERSIONS
+    
+VV_AFFYMETRIX (1)	
+    # move from VV_INPUT to task directory
+    # This allows detection as output files for publishing
+    mv VV_INPUT/* .
+
+    # Run V&V unless user requests to skip V&V
+    if true ; then
+      dpt validation run dp_tools__affymetrix . Metadata/*_runsheet.csv --max-flag-code 80
+      mv VV_report.tsv.MANUAL_CHECKS_PENDING VV_report_GLmicroarray.tsv.MANUAL_CHECKS_PENDING
+    fi
+
+    # Export versions
+    cat >> versions.yml <<END_OF_VERSIONS
+    - name: dp_tools
+      version: $(python -c "import dp_tools; print(dp_tools.__version__)")
+      homepage: https://github.com/J-81/dp_tools
+      workflow task: VV_AFFYMETRIX
+    END_OF_VERSIONS
+    
+GENERATE_SOFTWARE_TABLE (1)	
+    SoftwareYamlToMarkdownTable.py software_versions.yaml "GLDS-87_microarray_14R_(Mouse430_2).CEL.gz"
+    
