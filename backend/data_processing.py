@@ -4,7 +4,7 @@ import os
 from tqdm import tqdm
 
 BASE_URL = "https://osdr.nasa.gov"
-MAX_FILE_SIZE = 100 * 1024 * 1024  # 10 MB in bytes
+MAX_FILE_SIZE = 10 * 1024 * 1024 * 1024  # 10 GB in bytes
 
 
 def load_json_data(filename):
