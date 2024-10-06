@@ -2,7 +2,7 @@
 
 This project provides tools for downloading, processing, and analyzing data from NASA's Open Source Development Resource (OSDR) platform. It includes a RESTful API for querying the data and generating visualizations.
 
-![NASA OSDR Data Analysis Project](photos/product_photo.png)
+![NASA OSDR Data Analysis Project](https://github.com/bekhruzbekRakhmonov/NASA-OSD-Explorer/blob/main/photos/product.png)
 
 ## Table of Contents
 
